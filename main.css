@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+.swiper {
+    width: 800px;
+    height: 600px;
+}
+
+.swiper-slide {
+    margin: 75px 0px;
+}
+
+.slide-image {
+    aspect-ratio: 16 / 9;
+}
