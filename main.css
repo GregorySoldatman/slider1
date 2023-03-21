@@ -7,18 +7,18 @@ body * {
     box-sizing: border-box;
 }
 
-swiper-container {
-    width: 1410px;
-    height: 100%;
+.swiper {
+    max-width: 750px;
+    margin: auto;
 }
 
-swiper-slide {
+.swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
