@@ -9,43 +9,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="slide-image">
-                    <img src="./grafika/building-g9045f4fef_640.jpg" alt="image">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="slide-image">
-                    <img src="./grafika/cyberpunk-city-g8178488db_640.jpg" alt="image">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="slide-image">
-                    <img src="./grafika/hd-wallpaper-g89bb2ca17_640.jpg" alt="image">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="slide-image">
-                    <img src="./grafika/northern-gd0ec5a552_640.jpg" alt="image">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            direction: 'horizontal',
-            loop: false,
 
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
-</body>
+    <swiper-container class="mySwiper" navigation="true" space-between="30" slides-per-view="2">
+        <swiper-slide>
+            <div class="slide-image">
+                <img src="./grafika/building-g9045f4fef_640.jpg" alt="image">
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="slide-image">
+                <img src="./grafika/cyberpunk-city-g8178488db_640.jpg" alt="image">
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="slide-image">
+                <img src="./grafika/hd-wallpaper-g89bb2ca17_640.jpg" alt="image">
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="slide-image">
+                <img src="./grafika/northern-gd0ec5a552_640.jpg" alt="image">
+            </div>
+        </swiper-slide>
+    </swiper-container>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  </body>
 </html>
